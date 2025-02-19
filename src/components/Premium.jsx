@@ -33,7 +33,7 @@ const Premium = () => {
       key: keyId,
       amount,
       currency,
-      name: "Dev Tinder",
+      name: "DevFriends",
       description: "Connect to other developers",
       order_id: orderId,
       prefill: {
