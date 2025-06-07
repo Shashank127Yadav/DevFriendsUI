@@ -35,6 +35,7 @@ const Connections = () => {
       {connections.map((connection) => {
         const { _id, firstName, lastName, photoUrl, age, gender, about } =
           connection;
+        console.log("---", _id);
 
         return (
           <div
